@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: #00695C;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:cornsilk;
+    font-family: "League Spartan";
+}
+
+.wrapper h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.card{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 20px 30px;
+    position: relative;
+    background: rgba(93, 0, 105, 1);
+    box-shadow: 10px 20px 25px rgba(93, 0, 105, 0.15);
+    transition: 0.5s;
+}
+
+.card img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid cornsilk;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.card p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.card h3{
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: #909090;
+}
+
+.card h5{
+    color: #909090;
+    font-weight: 800;
+}
+
+.card:hover{
+    transform: scale(1.4);
+    background: #695D00;
+}
